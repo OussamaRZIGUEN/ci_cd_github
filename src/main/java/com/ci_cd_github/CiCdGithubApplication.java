@@ -20,4 +20,9 @@ public class CiCdGithubApplication {
 		return "Oussama Rziguen Backend Dev";
 	}
 
+	public Integer returnNumber() {
+		Random random = new Random();
+		return random.nextInt(100);
+	}
+
 }
